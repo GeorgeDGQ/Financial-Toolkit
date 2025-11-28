@@ -92,7 +92,7 @@ Ranking:
 
 The program is organized into modules:
 
-ProyectoRA.ipynb  
+FinancialToolkit.ipynb  
 ├── secure input handlers  
 ├── Section A  
 │   ├── investment calculator  
