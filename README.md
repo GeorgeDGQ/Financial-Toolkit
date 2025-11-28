@@ -29,6 +29,7 @@ Calculates the final return of an investment using the compound interest formula
 C_n = C_0 (1 + r)^n
 
 Includes:
+
   • initial capital  
   • annual rate (in %)  
   • number of years  
@@ -41,6 +42,7 @@ Includes:
 
 Allows registering assets with their ticker and invested amount.  
 Calculates:
+
   • Total invested  
   • Percentage weight of each asset  
   • Asset with the highest weight  
@@ -68,12 +70,15 @@ GASTO, TRANSPORTE, 200
 GASTO, ENTRETENIMIENTO, 1500
 
 Includes:
+
   • List of transactions (list of dictionaries)  
   • Classification by categories using dictionaries  
   • Validation with tuples  
 
 TIPOS_VALIDOS = ("INGRESO", "GASTO")
+
 CATEGORIAS_VALIDAS = ("COMIDA", "ENTRETENIMIENTO", ...)
+
 
   • Unique categories used (set)  
   • Categories with high expenses (>1000) (set)  
@@ -82,9 +87,13 @@ CATEGORIAS_VALIDAS = ("COMIDA", "ENTRETENIMIENTO", ...)
 Example output:
 
 Saldo total: 7200.00
+
 Categorías usadas: COMIDA, TRANSPORTE, ENTRETENIMIENTO, OTROS
+
 Categorías de gasto alto (>1000): ENTRETENIMIENTO
+
 Ranking:
+
 1. ENTRETENIMIENTO - 1500
 2. SERVICIOS - 800
 3. COMIDA - 300
@@ -105,6 +114,7 @@ FinancialToolkit.ipynb
 ```
 
 The notebook contains 5 cells in total:  
+
   1. Input validation functions  
   2. Investment calculator  
   3. Portfolio evaluator  
