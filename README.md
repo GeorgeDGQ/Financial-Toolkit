@@ -6,6 +6,7 @@ This project implements a mini financial system divided into three main modules:
   3. Wallet / Expense tracker (income, categories, ranking, category sets)
 
 Everything is developed using only basic Python, with:
+
   • functions  
   • input validation  
   • lists  
